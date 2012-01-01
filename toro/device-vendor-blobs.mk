@@ -46,7 +46,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/toro/proprietary/libsec-ril_lte.so:system/vendor/lib/libsec-ril_lte.so \
     vendor/samsung/toro/proprietary/libsrv_init.so:system/vendor/lib/libsrv_init.so \
     vendor/samsung/toro/proprietary/libsrv_um.so:system/vendor/lib/libsrv_um.so \
-    vendor/samsung/toro/proprietary/libusc.so:system/vendor/lib/libusc.so
+    vendor/samsung/toro/proprietary/libusc.so:system/vendor/lib/libusc.so \
+    vendor/samsung/toro/proprietary/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/samsung/toro/proprietary/PFFprec_600.emd:system/media/PFFprec_600.emd \
+    vendor/samsung/toro/proprietary/AndroidInSpace.240p.mp4:system/media/video/AndroidInSpace.240p.mp4 \
+    vendor/samsung/toro/proprietary/AndroidInSpace.480p.mp4:system/media/video/AndroidInSpace.480p.mp4 \
+    vendor/samsung/toro/proprietary/Disco.240p.mp4:system/media/video/Disco.240p.mp4 \
+    vendor/samsung/toro/proprietary/Disco.480p.mp4:system/media/video/Disco.480p.mp4 \
+    vendor/samsung/toro/proprietary/Sunset240p.mp4:system/media/video/Sunset.240p.mp4 \
+    vendor/samsung/toro/proprietary/Sunset480p.mp4:system/media/video/Sunset.480p.mp4
 
 # All the apks necessary for toro
 PRODUCT_PACKAGES += \
@@ -54,6 +62,7 @@ PRODUCT_PACKAGES += \
     IMSFramework \
     RTN \
     SDM \
-    SPG \
-    SyncMLSvc
+    SyncMLSvc \
+    VZWAPNLib \
+    VZWAPNService
 
