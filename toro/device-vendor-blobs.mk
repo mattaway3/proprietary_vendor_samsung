@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
 # All the apks necessary for toro
 PRODUCT_PACKAGES += \
     RTN \
+    VerizonSSO \
     VZWAPNLib \
     VZWAPNService
 
