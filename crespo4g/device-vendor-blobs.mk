@@ -47,11 +47,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/crespo4g/proprietary/libsrv_um.so:system/vendor/lib/libsrv_um.so \
     vendor/samsung/crespo4g/proprietary/libusc.so:system/vendor/lib/libusc.so \
     vendor/samsung/crespo4g/proprietary/wimax_service.jar:system/vendor/lib/wimax_service.jar
-
-# All the apks necessary for crespo4g
-PRODUCT_PACKAGES += \
-    SprintMenu \
-    SystemUpdateUI \
-    WiMAXHiddenMenu \
-    WiMAXSettings
+    vendor/samsung/crespo4g/proprietary/SprintMenu.apk:system/app/SprintMenu.apk \
+    vendor/samsung/crespo4g/proprietary/SystemUpdateUI.apk:system/app/SystemUpdateUI.apk \
+    vendor/samsung/crespo4g/proprietary/WiMAXHiddenMenu.apk:system/app/WiMAXHiddenMenu.apk \
+    vendor/samsung/crespo4g/proprietary/WiMAXSettings.apk:system/app/WiMAXSettings.apk
 
