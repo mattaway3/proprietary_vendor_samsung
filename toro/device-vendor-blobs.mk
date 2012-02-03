@@ -45,8 +45,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/toro/proprietary/libusc.so:system/vendor/lib/libusc.so \
     vendor/samsung/toro/proprietary/com.vzw.hardware.ehrpd.xml:system/etc/permissions/com.vzw.hardware.ehrpd.xml \
     vendor/samsung/toro/proprietary/com.vzw.hardware.lte.xml:system/etc/permissions/com.vzw.hardware.lte.xml \
-    vendor/samsung/toro/proprietary/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml \
-    vendor/samsung/toro/proprietary/RTN.apk:system/app/RTN.apk \
-    vendor/samsung/toro/proprietary/VZWAPNLib.apk:system/app/VZWAPNLib.apk \
-    vendor/samsung/toro/proprietary/VZWAPNService.apk:system/app/VZWAPNService.apk
+    vendor/samsung/toro/proprietary/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml
+
+# All the apks necessary for toro
+PRODUCT_PACKAGES += \
+    RTN \
+    VZWAPNLib \
+    VZWAPNService
 
